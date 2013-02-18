@@ -1,10 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
 
 <head>
-<link href="http://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
-<style>
+
+<link href="http://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<title>A Portfolio in Pictures</title>
+<style  type="text/css">
+
 
 	body {
 		font-family: "Cutive Mono", Courier, serif;
@@ -30,6 +36,10 @@
 		display: inline;
 		text-align: center;
 		color: white;
+		}
+		
+	p.frame {
+		display: inline;
 		}
 		
 	/*div.separator {
@@ -61,6 +71,7 @@
 		font-style: italic;
 		font-size: 12px;
 		text-align: right;
+		padding: 0px 10px;
 		}
 	
 	a {
@@ -99,16 +110,16 @@
 	<div id="content">
 	
 	<div class="frame">
-		<a href="http://robertss.github.com/responsive-design"><img src="nav-city-f2.png" width="300" /></a>
+		<a href="http://robertss.github.com/responsive-design"><img src="nav-city-f2.png" width="300" alt="Responsive Design" /></a>
 
 		</div>
 
 	<div class="frame">
-		<a href="http://robertss.github.com/final-project"><img src="nav-tower-f.png" width="300" /></a>
+		<a href="http://robertss.github.com/final-project"><img src="nav-tower-f.png" width="300" alt="Final Project" /></a>
 		</div>
 
 <div class="frame">
-		<a href="http://robertss.github.com/design-rationale"><img src="nav-group-f.png" width="300" /></a>
+		<a href="http://robertss.github.com/design-rationale"><img src="nav-group-f.png" width="300" alt="Design Rationale" /></a>
 		</div>
 
 </div> <!-- close content -->
@@ -127,7 +138,17 @@
 	<div id="footer">
 	
 	<p>Website design by Spencer Roberts, 2013</p>
-	
+	<p class="frame">
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p>
+	<p class="frame">
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+</p>  
 	</div> <!-- close footer -->
 </body>
 
