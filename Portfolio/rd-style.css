@@ -1,0 +1,56 @@
+html {
+	text-align: center;
+	margin: 0px auto;
+	}
+	
+body {
+	font-family: "Special Elite", Courier, serif;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 1.5em;
+	margin: 25px auto;
+	padding: 0px 100px;
+	min-width: 800px;
+	}
+
+#header {
+	min-width: 800px;
+	text-align: center;
+	margin: 25px auto;
+	border-bottom: solid 2px #000;
+	}
+	
+#header h1 {
+	text-align: center;
+	font-size: 400%;
+	text-transform: uppercase;
+	}
+	
+#header h2 {
+	text-align: center;
+	font-size: 300%;
+	}
+	
+#content {
+	border-top: solid 2px #000;
+	margin: 75px auto;
+	}
+	
+blockquote {
+	background-color: #eee;
+	font-style: italic;
+	}
+	
+blockquote p.cite {
+	text-align: right;
+	font-style: normal;
+	}
+	
+h1 {
+	font-size: 200%;
+	}
+	
+h2 {
+	font-size: 150%;
+	}	
+	
