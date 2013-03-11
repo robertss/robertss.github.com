@@ -60,7 +60,7 @@ body {
 	min-width: 300px;
 	width: auto;
 	float: none;
-	display: none;
+	/*display: none;*/ /*Used for dropdown menu, but no functionality on mobile*/
 	}
 	
 #nav ul {
@@ -118,6 +118,7 @@ body {
 	margin: 0px auto;
 	text-align: center;
 	font-family: "Special Elite", Courier, serif;
+	display: none; /*temporarily disabled*/
 	}
 
 #navdd ul {
@@ -142,14 +143,6 @@ body {
 #navdd ul:after {
 	content: ""; 
 	clear: both; 
-	display: block;
-	}
-
-.clicker:active #navdd ul li ul {
-	display: block;
-	}
-	
-#navdd ul li ul:hover {
 	display: block;
 	}
 
@@ -195,9 +188,9 @@ body {
 	text-decoration: none;
 	}
 	
-/*#navdd ul li:hover > ul {
+#navdd ul li:hover > ul {
 	display: block;
-	}*/
+	}
 	
 blockquote {
 	background-color: #eee;
