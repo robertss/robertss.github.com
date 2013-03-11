@@ -145,6 +145,14 @@ body {
 	display: block;
 	}
 
+.clicker:active #navdd ul li ul {
+	display: block;
+	}
+	
+#navdd ul li ul:hover {
+	display: block;
+	}
+
 #navdd ul ul {
 	display: none;
 	border: none;
@@ -187,9 +195,9 @@ body {
 	text-decoration: none;
 	}
 	
-#navdd ul li:hover > ul {
+/*#navdd ul li:hover > ul {
 	display: block;
-	}
+	}*/
 	
 blockquote {
 	background-color: #eee;
