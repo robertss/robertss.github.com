@@ -219,7 +219,7 @@ blockquote {
 	background-color: #eee;
 	font-style: italic;
 	padding: 5px 10px;
-	max-width: 80%;
+	max-width: 60%;
 	}
 	
 blockquote.qright {
@@ -253,6 +253,13 @@ img {
 	height: auto;
 	width: 20%;
 	}
+	
+.secimg {
+	display: block;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	}	
 	
 #content ol li ul {
 	list-style: none;
