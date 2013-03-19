@@ -1,13 +1,13 @@
 @media screen {
 
-	html {
+html {
 	text-align: center;
 	margin: 0px auto;
 	}
 	
 body {
 	font-family: "Cutive Mono", Courier, serif;
-	font-size: 14px;
+	font-size: 12pt;
 	font-size: 1em;
 	text-align: left;
 	line-height: 1.5em;
@@ -220,6 +220,7 @@ body {
 	}	
 	
 blockquote {
+	display: none;
 	background-color: #eee;
 	font-style: italic;
 	padding: 5px 10px;
@@ -268,6 +269,7 @@ img {
 #content ol li ul {
 	list-style: none;
 	font-style: italic;
+	padding: 0px;
 	}
 	
 #footer {
@@ -288,6 +290,8 @@ img {
 
 body {
 	max-width: 800px;
+	font-size: 14px;
+	font-size: 1em;
 	}
 	
 #header {
@@ -324,12 +328,20 @@ body {
 	height: auto;
 	width: 20%;
 	}	
-	
+
+blockquote {
+	display: block;
+	}	
 
 }
 
 @media screen and (min-width: 1050px) {
 	
+body {
+	font-size: 14px;
+	font-size: 1em;
+	}
+
 #content {
 	border-top: solid 2px #000;
 	margin: 10px auto;
@@ -361,5 +373,9 @@ h2 {
 .primeimg {
 	float: right;
 	}	
+
+blockquote {
+	display: block;
+	}
 
 }
