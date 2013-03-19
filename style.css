@@ -229,6 +229,7 @@ blockquote {
 	
 blockquote.qright {
 	float: right;
+	width: 80%;
 	}
 	
 blockquote p.cite {
