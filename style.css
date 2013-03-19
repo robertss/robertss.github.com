@@ -197,12 +197,15 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #C7B585;
-	width: 300px;
+	width: 192px;
+	border-right: none;
 	}
 
 #sidenav ul {
-	list-style: square;
+	list-style: none;
 	font-weight: bold;
+	padding: 0px;
+	text-align: center;
 	}
 
 #sidenav li {
@@ -329,7 +332,14 @@ body {
 #sidenav {
 	float: right;
 	margin: 10px;
+	border-right: 20px double black;
+	width: 250px;
 	}
+
+#sidenav ul {
+	list-style: square;
+	font-weight: bold;
+	}	
 	
 .primeimg {
 	float: right;
@@ -340,6 +350,7 @@ body {
 blockquote {
 	display: block;
 	}	
+	
 
 }
 
