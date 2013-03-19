@@ -252,7 +252,7 @@ img {
   	margin: 10px;
   	border: 2px solid black;
   	background: none;
-	} 
+	}	
 	
 .primeimg {
 	float: right;
@@ -272,6 +272,11 @@ img {
 	font-style: italic;
 	padding: 0px;
 	}
+	
+#content ol {
+	text-align: left;
+	}	
+	
 	
 #footer {
 	text-align: right;
