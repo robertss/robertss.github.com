@@ -11,6 +11,13 @@ body {
 	margin: 0px;
 	color: #3f3b35;
 	}
+
+body#about a#aboutnav, 
+body#index a#indexnav, 
+body#letters a#lettersnav, 
+body#leave a#leavenav {
+	color: #ff3400;
+	}
 	
 #wrapper {
 	margin-left: auto;
@@ -109,9 +116,6 @@ body {
 	font-family: "Special Elite", Courier, serif;
 	}
 
-.nav li.mobile {
-	}
-
 .nav li a {
 	text-decoration: none;
 	color: #151a4e;		
@@ -119,7 +123,7 @@ body {
 
 .nav li a:hover {
 	text-decoration: underline;	
-	}	
+	}
 
 .nav li.bigger {
 	display: none;
@@ -148,23 +152,6 @@ body {
 
 #content ol li {
 	margin-bottom: 10px;
-	}
-
-#footer {
-	display: block;
-	font-family: "Gill Sans", Arial, sans;
-	font-weight: bold;
-	color: #ff3400;
-	font-size: 0.8em;
-	text-align: center;
-	background-image: url(images/mo-border-b.png);
-	background-repeat: no-repeat;
-	background-position: bottom;
-	width: 290px;
-	height: 68px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0px 0px;
 	}
 	
 #bottomline {
@@ -201,7 +188,7 @@ a:hover {
 	text-decoration: underline;
 	color: #151a4e;		
 	}		
-	
+		
 }
 
 /*Styles for mid-size screens*/

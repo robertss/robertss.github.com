@@ -6,11 +6,17 @@ html {
 	}
 
 body {
-	position: absolute;
 	background-color: #fceed5;
 	top: 0px;
 	margin: 0px;
 	color: #3f3b35;
+	}
+
+body#about a#aboutnav, 
+body#index a#indexnav, 
+body#letters a#lettersnav, 
+body#leave a#leavenav {
+	color: #ff3400;
 	}
 
 #topline {
@@ -50,9 +56,6 @@ body {
 	background-size: 15px 95%;
 	padding: 0px 20px 0px 0px;
 	margin: 0px;
-	}
-	
-#header {
 	}
 
 #censor {
@@ -135,7 +138,7 @@ body {
 
 .nav li a:hover {
 	text-decoration: underline;	
-	}	
+	}
 
 .nav li.bigger {
 	display: none;
@@ -179,6 +182,14 @@ body {
 	color: #ff3400;
 	}		
 
+#content p.letter {
+	text-align: center;
+	}
+
+#content p.pause {
+	cursor: pointer;
+	}
+	
 #footer {
 	display: block;
 	font-family: "Gill Sans", Arial, sans;
@@ -229,7 +240,35 @@ a {
 a:hover {
 	text-decoration: underline;
 	color: #151a4e;		
+	}
+
+img {
+	max-width: 100%;
+	}
+
+img.photo {
+	width: 40%;
+	height: auto;
+	border: 2px solid #3f3b35;
+	}
+
+img.letter {
+	display: inline;
+	width: 40%;
+	height: auto;
+	border: 2px dashed #ff3400;
+	margin: 10px 0px;
 	}		
+
+ol li {
+	font-size: 1em;
+	}
+
+ol li ul li {
+	font-size: 0.8em;
+	list-style: none;
+	font-style: italic;
+	}
 	
 }
 
