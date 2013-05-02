@@ -15,7 +15,9 @@ body {
 body#about a#aboutnav, 
 body#index a#indexnav, 
 body#letters a#lettersnav, 
-body#leave a#leavenav {
+body#leave a#leavenav,
+body#dec a#dec,
+body#dec a#lettersnav {
 	color: #ff3400;
 	}
 
@@ -274,38 +276,74 @@ ol li ul li {
 	font-style: italic;
 	}
 
-#letter-nav {
-	display: block;
-	margin: 0px auto;
-	width: 300px;
+#letter {
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+	text-align: center;
+	display: inline-block;
+	}
+
+#letter h1 {
 	text-align: center;
 	}
 
-#letter-nav a { 
-	border: 1px solid #ccc; 
-	background: #fceed5; 
-	text-decoration: none; 
-	margin: 0 5px; 
-	padding: 3px 5px;  
+.transcript {
+	text-align: justify;
+	width: 40%;
+	min-width: 250px;
+	display: inline-block;
+	padding: 0px 20px;
 	}
 
-#letter-nav a.activeSlide { 
-	background: #ff3400; 
-	}
-
-#letter-nav a:focus { 
-	outline: none; 
+.letter {
+	width: 10%;
+	display: inline;
+	vertical-align: top;
 	}	
 
-#letter-show {
-	width: 400px;
-	height: 800px;
-	margin: 10px auto;
+.sig {
+	text-align: right;
 	}
 
-#letter-show img {
-	width: 100%;
+.song {
+	text-align: right;
+	font-style: italic;
+	font-size: 0.8em;
 	}	
+
+#letter-nav {
+	text-align: center;
+	width: 80%;
+	min-width: 250px;
+	margin: 0px auto;
+	border-bottom: 1px solid #ff3400;
+	}
+
+#letter-nav ul {
+	list-style: none;
+	padding: 0;
+	}
+
+#letter-nav ul li {
+	display: inline-block;
+	padding: 0px 10px;
+	}
+
+#browse {
+	float: right;
+	border: 4px double #ff3400;
+	width: 150px;
+	padding: 0px;
+	text-align: center;
+	margin: 10px;
+	}
+
+#browse h3 {
+	padding: 0px;
+	line-height: 0.9em;
+	margin: 1px;
+	}
 	
 }
 
@@ -373,6 +411,10 @@ ol li ul li {
 	display: block;
 	}		
 
+#letter h1 {
+	text-align: center;
+	}
+
 }
 
 @media screen and (min-width: 900px) {
@@ -400,7 +442,7 @@ ol li ul li {
 .nav {
 	float: none;
 	vertical-align: top;
-	}	
+	}
 
 #content p.leftfoot, #content p.rightfoot {
 	width: 240px;
