@@ -154,6 +154,10 @@ body#leave a#leavenav {
 	padding: 0px 10px;
 	}
 
+.music {
+	text-align: center;
+	}
+
 #content h1 {
 	font-size: 1.2em;
 	line-height: 1.21em;
@@ -269,6 +273,39 @@ ol li ul li {
 	list-style: none;
 	font-style: italic;
 	}
+
+#letter-nav {
+	display: block;
+	margin: 0px auto;
+	width: 300px;
+	text-align: center;
+	}
+
+#letter-nav a { 
+	border: 1px solid #ccc; 
+	background: #fceed5; 
+	text-decoration: none; 
+	margin: 0 5px; 
+	padding: 3px 5px;  
+	}
+
+#letter-nav a.activeSlide { 
+	background: #ff3400; 
+	}
+
+#letter-nav a:focus { 
+	outline: none; 
+	}	
+
+#letter-show {
+	width: 400px;
+	height: 800px;
+	margin: 10px auto;
+	}
+
+#letter-show img {
+	width: 100%;
+	}	
 	
 }
 
