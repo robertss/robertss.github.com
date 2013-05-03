@@ -144,6 +144,7 @@ body#leave a#leavenav {
 	font-size: 1.2em;
 	line-height: 1.3em;
 	text-align: center;
+	padding: 0;
 	}			
 
 #content ol {
