@@ -16,8 +16,8 @@ body#about a#aboutnav,
 body#index a#indexnav, 
 body#letters a#lettersnav, 
 body#leave a#leavenav,
-body#dec a#dec,
-body#dec a#lettersnav {
+body#dec a#lettersnav,
+body#dec a#curr  {
 	color: #ff3400;
 	}
 
@@ -216,7 +216,7 @@ body#dec a#lettersnav {
 #bottomline {
 	font-family: "Gill Sans", Arial, sans;
 	font-size: 0.8em;
-	line-height: 0.7em;
+	line-height: 0.8em;
 	text-align: right;
 	color: #ff3400;
 	margin: 0px 0px 10px 0px;
@@ -290,17 +290,31 @@ ol li ul li {
 
 .transcript {
 	text-align: justify;
-	width: 40%;
+	width: 50%;
 	min-width: 250px;
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 10px;
+	}
+
+#let-img {
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px;
+	margin: 10px;
+	max-width: 300px;
 	}
 
 .letter {
-	width: 10%;
-	display: inline;
+	display: inline-block;
 	vertical-align: top;
-	}	
+	margin: 0px;
+	}
+
+#let-img img {
+	width: 100%;
+	}		
 
 .sig {
 	text-align: right;
