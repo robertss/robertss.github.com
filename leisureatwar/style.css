@@ -12,12 +12,7 @@ body {
 	color: #3f3b35;
 	}
 
-body#about a#aboutnav, 
-body#index a#indexnav, 
-body#letters a#lettersnav, 
-body#leave a#leavenav,
-body#dec a#lettersnav,
-body#dec a#curr  {
+body#dec a.curr  {
 	color: #ff3400;
 	}
 
@@ -161,8 +156,8 @@ body#dec a#curr  {
 	}
 
 #content h1 {
-	font-size: 1.2em;
-	line-height: 1.21em;
+	font-size: 1.8em;
+	line-height: 1.81em;
 	text-align: center;
 	}	
 
@@ -229,7 +224,7 @@ blockquote {
 	font-size: 0.9em;
 	padding: 5px 10px;
 	margin-left: 70px;
-	border-left: 2px solid #3f3b35;
+	border-left: 2px solid #ff3400;
 	}
 	
 blockquote p.cite {
@@ -274,6 +269,52 @@ ol li ul li {
 	font-size: 0.8em;
 	list-style: none;
 	font-style: italic;
+	}
+
+.photo-album {
+	width: 100%;
+	height: auto;
+	margin: 10px auto;
+	text-align: center;
+	display: inline-block;
+	}
+
+.photo-album p, li, h3 {
+	text-align: left;
+	}
+
+#content div.photo-album h1 {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.51em;
+	}	
+
+.photo-desk {
+	text-align: justify;
+	width: 40%;
+	min-width: 250px;
+	display: inline-block;
+	padding: 0px 10px;
+	}
+
+.photo-img {
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px;
+	margin: 10px;
+	max-width: 500px;
+	}
+
+.photo-img img {
+	width: 100%;
+	}
+
+.photo {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
 	}
 
 #letter {
@@ -328,10 +369,14 @@ ol li ul li {
 
 #letter-nav {
 	text-align: center;
-	width: 80%;
 	min-width: 250px;
+	max-width: 600px;
 	margin: 0px auto;
 	border-bottom: 1px solid #ff3400;
+	}
+
+#letter-nav h3 {
+	text-align: center;
 	}
 
 #letter-nav ul {
@@ -340,24 +385,50 @@ ol li ul li {
 	}
 
 #letter-nav ul li {
-	display: inline-block;
+	display: block;
 	padding: 0px 10px;
+	text-align: center;
 	}
 
-#browse {
-	float: right;
+.browse {
+	float: none;
 	border: 4px double #ff3400;
-	width: 150px;
+	width: 210px;
 	padding: 0px;
 	text-align: center;
-	margin: 10px;
+	margin: 10px auto;
 	}
 
-#browse h3 {
-	padding: 0px;
-	line-height: 0.9em;
+.browse h3 {
+	padding: 2px;
+	font-size: 1.3em;
+	line-height: 1.2em;
 	margin: 1px;
+	text-align: center;
 	}
+
+.browse-b {
+	float: none;
+	border: 4px double #ff3400;
+	width: 210px;
+	padding: 0px;
+	text-align: center;
+	margin: 10px auto;
+	}
+
+.browse-b h3 {
+	padding: 2px;
+	font-size: 1.3em;
+	line-height: 1.2em;
+	margin: 1px;
+	text-align: center;
+	}
+
+#content div.photo-album h1 {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.51em;
+	}		
 	
 }
 
@@ -425,8 +496,17 @@ ol li ul li {
 	display: block;
 	}		
 
+#letter-nav ul li {
+	display: inline-block;
+	}
+
 #letter h1 {
 	text-align: center;
+	}
+
+.browse {
+	float: right;
+	margin: 10px;
 	}
 
 }
@@ -456,6 +536,10 @@ ol li ul li {
 .nav {
 	float: none;
 	vertical-align: top;
+	}
+
+#letter-nav ul li {
+	display: inline-block;
 	}
 
 #content p.leftfoot, #content p.rightfoot {
