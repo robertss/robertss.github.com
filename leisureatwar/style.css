@@ -351,6 +351,7 @@ ol li ul li {
 	display: inline-block;
 	vertical-align: top;
 	margin: 0px;
+	width: 100%;
 	}
 
 #let-img img {
