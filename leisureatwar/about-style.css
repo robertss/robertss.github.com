@@ -12,10 +12,7 @@ body {
 	color: #3f3b35;
 	}
 
-body#about a#aboutnav, 
-body#index a#indexnav, 
-body#letters a#lettersnav, 
-body#leave a#leavenav {
+body#dec a.curr  {
 	color: #ff3400;
 	}
 	
@@ -67,6 +64,12 @@ body#leave a#leavenav {
 	font-family: "Special Elite", Courier, serif;
 	font-size: 2.5em;
 	text-align: center;
+	font-weight: 100;
+	}
+
+#logo h1:hover, a:hover {
+	font-weight: 800;
+	text-decoration: none;
 	}
 
 #stamp {
@@ -108,17 +111,21 @@ body#leave a#leavenav {
 	}	
 
 .nav li {
-	margin-top: 6px;
+	margin-top: 8px;
 	list-style: none;
 	color: #151a4e;
-	font-size: 0.9em;
+	font-size: 16pt;
 	text-align: center;
 	font-family: "Special Elite", Courier, serif;
 	}
 
+.nav li.top {
+	margin-top: 2px;
+	}	
+
 .nav li a {
 	text-decoration: none;
-	color: #151a4e;		
+	color: #5e6180;		
 	}
 
 .nav li a:hover {
@@ -182,13 +189,17 @@ blockquote p.cite {
 
 a {
 	text-decoration: none;
-	color: #151a4e;		
+	color: #5e6180;		
 	}
 
 a:hover {
 	text-decoration: underline;
-	color: #151a4e;		
+	color: #5e6180;		
 	}		
+
+img {
+	max-width: 100%;
+	}
 		
 }
 
@@ -306,13 +317,18 @@ a:hover {
 	}
 	
 .nav li {
-	margin-top: 3px;
+	margin-top: 4px;
+	margin-bottom: 1px;
 	list-style: none;
 	color: #151a4e;
-	font-size: 0.9em;
+	font-size: 10pt;
 	text-align: center;
 	font-family: "Special Elite", Courier, serif;
 	}	
+
+.nav li.top {
+	margin-top: 2px;
+	}
 
 .nav ul.mobile {
 	display: none;

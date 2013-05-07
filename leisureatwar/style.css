@@ -16,10 +16,6 @@ body#dec a.curr  {
 	color: #ff3400;
 	}
 
-h1 a, h2 a, h3 a {
-	font-weight: 400;
-	}
-
 #topline {
 	display: none;
 	margin-top: 2px;
@@ -83,6 +79,12 @@ h1 a, h2 a, h3 a {
 	font-family: "Special Elite", Courier, serif;
 	font-size: 2.5em;
 	text-align: center;
+	font-weight: 100;
+	}
+
+#logo h1:hover, a:hover {
+	font-weight: 800;
+	text-decoration: none;
 	}	
 
 .nav {
@@ -90,7 +92,6 @@ h1 a, h2 a, h3 a {
 	margin-right: auto;
 	margin-left: auto;
 	width: 290px;
-	/*height: 164px;*/
 	max-height: 164px;
 	background-image: url('images/mo-nav.png');
 	background-repeat: no-repeat;
@@ -101,10 +102,11 @@ h1 a, h2 a, h3 a {
 
 .nav ul {
 	list-style: none;
-	margin-left: -40px;
+	margin-left: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	padding-top: 7px;
+	padding-top: 9px;
+	padding-left: 0px;
 	text-align: center;
 	font-family: "Special Elite", Courier, serif;
 	color: #151a4e;
@@ -121,7 +123,7 @@ h1 a, h2 a, h3 a {
 	}	
 
 .nav li {
-	margin-bottom: 7px;
+	margin-bottom: 6px;
 	list-style: none;
 	color: #151a4e;
 	font-size: 16pt;
@@ -129,16 +131,15 @@ h1 a, h2 a, h3 a {
 	font-family: "Special Elite", Courier, serif;
 	}
 
-.nav li.mobile {
-	}
-
 .nav li a {
 	text-decoration: none;
-	color: #151a4e;		
+	/*color: #151a4e;*/
+	color: #5e6180;
 	}
 
 .nav li a:hover {
-	text-decoration: underline;	
+	text-decoration: underline;
+	font-weight: 600;	
 	}
 
 .nav li.bigger {
@@ -184,8 +185,12 @@ h1 a, h2 a, h3 a {
 	}		
 
 #content a {	
-	font-weight: bold;
+	font-weight: normal;
 	}
+	
+#content a:hover {
+	font-weight: 600;
+	}	
 
 #content sup {
 	font-size: 75%;
@@ -236,12 +241,13 @@ blockquote p.cite {
 
 a {
 	text-decoration: none;
-	color: #151a4e;
+	color: #5e6180;
 	}
 
 a:hover {
 	text-decoration: underline;
-	color: #151a4e;		
+	color: #5e6180;
+	font-weight: 600;		
 	}
 
 img {
