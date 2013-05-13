@@ -331,6 +331,20 @@ ol li ul li {
 	margin: 0px;
 	}
 
+.portrait {
+	display: block;
+	margin: auto;
+	width: 50%;
+	max-width: 300px;
+	}
+
+img.portrait {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 300px;
+	}	
+
 #letter {
 	width: 100%;
 	height: auto;
