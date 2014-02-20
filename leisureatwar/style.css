@@ -428,6 +428,42 @@ img.portrait {
 	text-align: center;
 	}
 
+#y43, #y44, #y45 {
+	display: inline-block;
+	text-align: center;
+	}	
+
+#y43-drop, #y44-drop, #y45-drop {
+	display: inline-block;
+	text-align: center;
+	max-width: 700px;
+	margin: 0px 10px;
+	cursor: pointer;
+	color: #5e6180;
+	}
+
+#y43-drop:hover, #y44-drop:hover, #y45-drop:hover {
+	text-decoration: underline;
+	}
+
+#y43-dropnav, #y44-dropnav, #y45-dropnav {
+	text-align: center;
+	min-width: 250px;
+	max-width: 700px;
+	margin: 0px auto;
+	}		
+
+#y43-dropnav ul, #y44-dropnav ul, #y45-dropnav ul {
+	list-style: none;
+	padding: 0;
+	}
+
+#y43-dropnav ul li, #y44-dropnav ul li, #y45-dropnav ul li {
+	display: block;
+	padding: 0px 25px;
+	text-align: center;
+	}
+
 #letter-nav {
 	text-align: center;
 	min-width: 250px;
