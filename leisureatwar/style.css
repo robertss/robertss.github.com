@@ -428,6 +428,13 @@ img.portrait {
 	text-align: center;
 	}
 
+#nav-1943 {
+	text-align: center;
+	min-width: 250px;
+	max-width: 700px;
+	margin: 0px auto;
+	}
+
 #y43, #y44, #y45 {
 	display: inline-block;
 	text-align: center;
